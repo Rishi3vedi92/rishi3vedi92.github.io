@@ -4,12 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Prophic Management | Real Estate Asset Management</title>
-  <meta name="description" content="Prophic Asset Management provides real-estate-focused accounting, monthly close, FP&A, dashboards, and audit support for owners, operators, and investors in NY/NJ." />
+  <meta name="description" content="Prophic Management delivers end-to-end real estate asset management: property management, full-cycle accounting, FP&A, audits, and investor-grade reporting." />
   <meta name="robots" content="index,follow" />
-  <meta property="og:title" content="Prophic Asset Management" />
-  <meta property="og:description" content="Real estate accounting, monthly close, FP&A & audit support." />
+  <meta property="og:title" content="Prophic Management" />
+  <meta property="og:description" content="Your Real Estate Asset Management Partner — Accounting • FP&A • Property & Asset Management." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://prophic.example" />
+  <meta property="og:url" content="https://prophicmanagement.com" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='80'>📊</text></svg>">
 
   <!-- Tailwind (CDN) -->
@@ -19,12 +19,8 @@
       theme: {
         extend: {
           colors: {
-            primary: {
-              50:'#eef2ff',100:'#e0e7ff',200:'#c7d2fe',300:'#a5b4fc',400:'#818cf8',500:'#6366f1',600:'#4f46e5',700:'#4338ca',800:'#3730a3',900:'#312e81'
-            },
-            accent: {
-              50:'#effdf5',100:'#d9fbeb',200:'#b6f4d7',300:'#89e8be',400:'#5bd9a3',500:'#34d399',600:'#10b981',700:'#059669',800:'#047857',900:'#065f46'
-            }
+            primary: { 50:'#eef2ff',100:'#e0e7ff',200:'#c7d2fe',300:'#a5b4fc',400:'#818cf8',500:'#6366f1',600:'#4f46e5',700:'#4338ca',800:'#3730a3',900:'#312e81' },
+            accent:  { 50:'#effdf5',100:'#d9fbeb',200:'#b6f4d7',300:'#89e8be',400:'#5bd9a3',500:'#34d399',600:'#10b981',700:'#059669',800:'#047857',900:'#065f46' }
           }
         }
       }
@@ -37,24 +33,24 @@
     html { scroll-behavior: smooth; }
     body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
   </style>
+
+  <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    "name": "Prophic Asset Management",
-    "description": "Real estate accounting, monthly close, FP&A & audit support for owners and operators.",
-    "email": "mailto:rishi.trivedi92@gmail.com",
+    "name": "Prophic Management",
+    "description": "End-to-end real estate asset management: property management, full-cycle accounting, FP&A, and audit support.",
+    "email": "mailto:info@prophicmanagement.com",
     "telephone": "+1-862-359-9455",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "7336 Riverside Station Blvd",
       "addressLocality": "Secaucus",
       "addressRegion": "NJ",
-      "postalCode": "07094",
       "addressCountry": "US"
     },
-    "areaServed": ["New York", "New Jersey"],
-    "url": "https://prophic.example"
+    "areaServed": "United States",
+    "url": "https://prophicmanagement.com"
   }
   </script>
 </head>
@@ -62,10 +58,10 @@
   <!-- Top Bar -->
   <div class="bg-primary-900 text-white text-sm">
     <div class="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
-      <p>Serving NY & NJ • Real Estate Accounting & FP&A</p>
+      <p>Full-Cycle Real Estate Accounting • FP&A • Asset & Property Management • Serving Clients Nationwide</p>
       <div class="space-x-4">
         <a class="underline hover:no-underline" href="tel:+18623599455">(862) 359-9455</a>
-        <a class="underline hover:no-underline" href="mailto:rishi.trivedi92@gmail.com?subject=Prophic%20-%20Inquiry">rishi.trivedi92@gmail.com</a>
+        <a class="underline hover:no-underline" href="mailto:info@prophicmanagement.com?subject=Prophic%20-%20Inquiry">info@prophicmanagement.com</a>
       </div>
     </div>
   </div>
@@ -77,8 +73,9 @@
         <a href="#" class="flex items-center space-x-2">
           <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-primary-600 text-white font-bold">P</span>
           <span class="font-extrabold tracking-tight text-lg">Prophic</span>
-          <!-- TODO: Replace the badge above with your final logo image once provided. Example:
-          <img src="/logo-prophic.svg" alt="Prophic logo" class="h-9 w-auto"> -->
+          <!-- To use your logo, upload `logo-prophic.svg` to the repo root and replace the two elements above with:
+          <img src="logo-prophic.svg" alt="Prophic logo" class="h-9 w-auto">
+          -->
         </a>
         <button id="menuBtn" class="md:hidden p-2 rounded-lg border border-gray-300" aria-label="Open menu">☰</button>
         <ul id="menu" class="hidden md:flex items-center gap-6">
@@ -86,7 +83,7 @@
           <li><a class="hover:text-primary-600" href="#process">Process</a></li>
           <li><a class="hover:text-primary-600" href="#about">About</a></li>
           <li><a class="hover:text-primary-600" href="#contact">Contact</a></li>
-          <li><a class="inline-flex items-center rounded-xl bg-primary-600 text-white px-4 py-2 font-semibold hover:bg-primary-700" href="#contact">Book a Free Consult</a></li>
+          <li><a class="inline-flex items-center rounded-xl bg-primary-600 text-white px-4 py-2 font-semibold hover:bg-primary-700" href="mailto:info@prophicmanagement.com?subject=Book%20a%20Consultation">Book a Free Consult</a></li>
         </ul>
       </div>
       <ul id="menuMobile" class="md:hidden hidden pb-4 space-y-2">
@@ -107,13 +104,13 @@
         </h1>
         <p class="mt-4 text-lg text-gray-700">From property management to accounting and financial strategy, Prophic delivers end-to-end solutions for real estate portfolios.</p>
         <div class="mt-6 flex flex-wrap gap-3">
-          <a href="#contact" class="inline-flex items-center rounded-xl bg-primary-600 text-white px-5 py-3 font-semibold hover:bg-primary-700">Book a Free Consultation</a>
+          <a href="mailto:info@prophicmanagement.com?subject=Book%20a%20Consultation" class="inline-flex items-center rounded-xl bg-primary-600 text-white px-5 py-3 font-semibold hover:bg-primary-700">Book a Free Consultation</a>
           <a href="#services" class="inline-flex items-center rounded-xl border border-gray-300 px-5 py-3 font-semibold hover:border-primary-300">See Services</a>
         </div>
         <div class="mt-6 flex flex-wrap items-center gap-2 text-sm">
-          <span class="inline-flex items-center gap-2 rounded-full bg-primary-50 text-primary-700 px-3 py-1 border border-primary-200">Accrual Accounting Only</span>
-          <span class="inline-flex items-center gap-2 rounded-full bg-emerald-50 text-emerald-700 px-3 py-1 border border-emerald-200">Rent Manager • Yardi • QuickBooks</span>
-          <span class="inline-flex items-center gap-2 rounded-full bg-gray-100 text-gray-700 px-3 py-1 border border-gray-200">NY & NJ</span>
+          <span class="inline-flex items-center gap-2 rounded-full bg-gray-100 text-gray-700 px-3 py-1 border border-gray-200">Comprehensive Real Estate Accounting & Advisory</span>
+          <span class="inline-flex items-center gap-2 rounded-full bg-emerald-50 text-emerald-700 px-3 py-1 border border-emerald-200">Seamless Integration with Industry-Standard Platforms</span>
+          <span class="inline-flex items-center gap-2 rounded-full bg-primary-50 text-primary-700 px-3 py-1 border border-primary-200">Supporting Owners & Investors Across the U.S.</span>
         </div>
       </div>
       <div>
@@ -125,7 +122,7 @@
               <div class="rounded-xl border p-4"><p class="font-semibold">Intercompany</p><p class="text-gray-600">IC/Equity schedules & eliminations.</p></div>
               <div class="rounded-xl border p-4"><p class="font-semibold">Audit Support</p><p class="text-gray-600">Workpapers & PBC coordination.</p></div>
             </div>
-            <p class="mt-4 text-xs text-gray-500">Solo-operated by Rishi Trivedi — Controller/FP&A background in NY/NJ real estate.</p>
+            <p class="mt-4 text-xs text-gray-500">Prophic Management — real estate finance, operations, and reporting under one roof.</p>
           </div>
         </div>
       </div>
@@ -179,6 +176,10 @@
           </ul>
         </article>
       </div>
+      <div class="mt-8 rounded-2xl border bg-gradient-to-r from-primary-50 to-accent-50 p-6">
+        <p class="font-semibold">Tools & Platforms:</p>
+        <p class="text-gray-700">We integrate with leading real estate and accounting platforms to match your current stack.</p>
+      </div>
     </div>
   </section>
 
@@ -195,7 +196,7 @@
         <div class="rounded-2xl border p-6">
           <div class="text-4xl">2</div>
           <h3 class="mt-2 font-bold">Setup</h3>
-          <p class="text-gray-700">We establish financial systems, reporting frameworks, and property management operations—covering everything from lease administration and rent collection to tenant support—so that accounting accuracy and property oversight work seamlessly together.</p>
+          <p class="text-gray-700">We establish financial systems, reporting frameworks, and property management operations—covering lease administration, rent collection, and tenant support—so accounting accuracy and property oversight work seamlessly together.</p>
         </div>
         <div class="rounded-2xl border p-6">
           <div class="text-4xl">3</div>
@@ -237,11 +238,11 @@
   <section class="py-16">
     <div class="max-w-7xl mx-auto px-4">
       <div class="rounded-2xl bg-gradient-to-r from-primary-600 to-primary-700 p-8 md:p-12 text-white">
-        <h3 class="text-2xl md:text-3xl font-extrabold">Ready to get your close under control?</h3>
-        <p class="mt-2 text-white/90">I start with a quick discovery call and deliver value in the first week.</p>
+        <h3 class="text-2xl md:text-3xl font-extrabold">Ready to get your operations and reporting under control?</h3>
+        <p class="mt-2 text-white/90">Start with a quick consultation. We deliver value in the first week.</p>
         <div class="mt-5 flex flex-wrap gap-3">
-          <a class="inline-flex items-center rounded-xl bg-white text-primary-700 px-5 py-3 font-semibold hover:bg-gray-100" href="#contact">Book a Free Consult</a>
-          <a class="inline-flex items-center rounded-xl border border-white/40 px-5 py-3 font-semibold hover:bg-white/10" href="mailto:rishi.trivedi92@gmail.com?subject=Prophic%20-%20Inquiry">Email Me</a>
+          <a class="inline-flex items-center rounded-xl bg-white text-primary-700 px-5 py-3 font-semibold hover:bg-gray-100" href="mailto:info@prophicmanagement.com?subject=Book%20a%20Consultation">Book a Free Consultation</a>
+          <a class="inline-flex items-center rounded-xl border border-white/40 px-5 py-3 font-semibold hover:bg-white/10" href="mailto:info@prophicmanagement.com?subject=Prophic%20-%20Inquiry">Email Us</a>
         </div>
       </div>
     </div>
@@ -280,20 +281,25 @@
           <textarea required name="message" rows="4" class="mt-1 w-full rounded-xl border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-400"></textarea>
         </div>
         <button type="submit" class="w-full rounded-xl bg-primary-600 text-white px-4 py-3 font-semibold hover:bg-primary-700">Send Email</button>
-        <p id="formNote" class="text-xs text-gray-600">This uses your email client to send a message—no data is stored on this site.</p>
+        <p id="formNote" class="text-xs text-gray-600">This opens your email client to send a message—no data is stored on this site.</p>
       </form>
     </div>
   </section>
 
   <footer class="py-10 border-t bg-white">
     <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
-      <p class="text-sm">© <span id="year"></span> Prophic Management. Serving NY & NJ.</p>
+      <p class="text-sm">
+        Full-Cycle Real Estate Accounting • FP&A • Asset & Property Management • Serving Clients Nationwide
+      </p>
       <div class="text-sm text-gray-600 flex gap-4">
         <a href="#services" class="hover:text-primary-700">Services</a>
         <a href="#process" class="hover:text-primary-700">Process</a>
         <a href="#about" class="hover:text-primary-700">About</a>
         <a href="#contact" class="hover:text-primary-700">Contact</a>
       </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 mt-4 text-xs text-gray-500">
+      © <span id="year"></span> Prophic Management.
     </div>
   </footer>
 
@@ -314,7 +320,7 @@
       const message = encodeURIComponent(data.get('message'));
       const subject = encodeURIComponent('Prophic — New Inquiry');
       const body = encodeURIComponent(`Name: ${decodeURIComponent(name)}\nEmail: ${decodeURIComponent(email)}\nCompany: ${decodeURIComponent(company)}\n\nMessage:\n${decodeURIComponent(message)}`);
-      window.location.href = `mailto:rishi.trivedi92@gmail.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:info@prophicmanagement.com?subject=${subject}&body=${body}`;
     });
 
     // Year
